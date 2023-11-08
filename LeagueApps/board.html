@@ -21,6 +21,9 @@
                     </div>
                     <h2 class="stroked">Mt. Olive Basketball <span>Association Board Members</span></h2>
                     <p>Meet our team - the crew that keeps the ship on course</p>
+                    <b>General Info and Inquiries:</b>
+                    <br/><a href="mailto:mtoliveba@gmail.com"><i class="far fa-envelope"></i>&nbsp;mtoliveba@gmail.com</a>
+                    <br/><span><i class="fas fa-home"></i>&nbsp;MOBA • PO Box 694 • Budd Lake, NJ 07828</span>
                 </div>
             </section>
             <section id="wrapper"></section>
@@ -59,10 +62,10 @@
                         
                         if(c.email){
                             if( i%2 ) {
-                                $("<p class='contact'><a href='mailto:" + c.email + "' target='_parent'><i class='far fa-envelope'/>E-Mail</a></p>").appendTo(content);
+                                $("<p class='contact'><a href='mailto:" + c.email + "' target='_parent'><i class='far fa-envelope'/>" + c.email + "</a></p>").appendTo(content);
                                 //if(c.phone) $("<p class='contact'><a href='tel:" + c.phone + "'><i class='fas fa-phone'/>" + c.phone + "</a></p>").appendTo(content);
                             } else {
-                                $("<p class='contact'><a href='mailto:" + c.email + "' target='_parent'>E-Mail<i class='far fa-envelope'/></a></p>").appendTo(content);
+                                $("<p class='contact'><a href='mailto:" + c.email + "' target='_parent'>" + c.email + "<i class='far fa-envelope'/></a></p>").appendTo(content);
                                 //if(c.phone) $("<p class='contact'><a href='tel:" + c.phone + "'>" + c.phone + "<i class='fas fa-phone'/></a></p>").appendTo(content);
                             }
                         }
