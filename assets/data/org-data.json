@@ -1,0 +1,32 @@
+{
+    "const": {
+        "defaultContactPhoto": "images/nophoto.gif"
+    },
+    "links": {
+        "league":       "//www.mobasketball.org",
+        "facebook":     "//www.facebook.com/MtOliveBasketball",
+        "instagram":    "//instagram.com",
+        "twitter":      "//twitter.com",
+        "youtube":      "//youtube.com",
+        "gearstore-old": "https://mobagearstore.myshopify.com/",
+
+        "gravatar":     "https://en.gravatar.com/mtolivebsa",
+        "wordpress-me": "https://wordpress.com/me",
+        "github":       "https://github.com/MOBasketball/MOBA-Private.git"
+    },
+    "boardMembers": [
+        { "active": 1, "order":  1, "name":"Jeff Davidson",         "role":"President",             "email":"JDavidson.MOBA@gmail.com",     "photo":"" },
+        { "active": 1, "order":  2, "name":"Jessica Wroblewski",    "role":"Vice President",        "email":"Wroblewski.MOBA@gmail.com",    "photo":"images/board/J-Wroblewski.jpg" },
+        { "active": 1, "order":  3, "name":"Renee Mahon",           "role":"Secretary",             "email":"reneemahon115@gmail.com",      "photo":"images/board/R-Mahon.jpg" },
+        { "active": 1, "order":  4, "name":"Anneliese Larose",      "role":"Treasurer",             "email":"ALaRose625@gmail.com",         "photo":"" },
+        
+        { "active": 1, "order":  5, "name":"Dean Taylor",           "role":"Web Admin",             "email":"dean.p.taylor+MOBA@gmail.com", "photo":"images/board/D-Taylor.jpg" },
+        { "active": 1, "order":  6, "name":"Chris Larose",          "role":"Equipment Coordinator", "email":"clarose314@gmail.com",         "photo":"" },
+        { "active": 1, "order":  7, "name":"Matt Levine",           "role":"Scheduling",            "email":"mattsteuerlevine@yahoo.com",   "photo":"" },
+        { "active": 1, "order":  8, "name":"Kaitlyn Chamberland",   "role":"Events",                "email":"Kkchamberland@gmail.com",      "photo":"" },
+        { "active": 1, "order":  9, "name":"Randy Zellea",          "role":"Sponsorships",          "email":"randybsp@gmail.com",         	"photo":"" }
+    ],
+    "boardMembersArchive": {
+        "YYYY": []
+    }
+}
