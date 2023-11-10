@@ -19,20 +19,13 @@ function notifyResize(){
     if(document.referrer == "https://www.mobasketball.org" || document.referrer == "https://mobasketball.github.io/newsletters/index.html?ref=leagueapps"){
         parent.postMessage(height, "https://www.mobasketball.org/");
     } else if(document.referrer == "http://www.mobasketball.org/"){
-        parent.postMessage(height, "https://mobasketball.org/");
+        parent.postMessage(height, "http://www.mobasketball.org/");
+    } else if(document.referrer == "http://mobasketball.org/"){
         parent.postMessage(height, "http://mobasketball.org/");
+    } else if(document.referrer == "https://www.mobasketball.leagueapps.com/"){   
+        parent.postMessage(height, "https://www.mobasketball.leagueapps.com/");
+    } else if(document.referrer == "https://mobasketball.leagueapps.com/"){   
         parent.postMessage(height, "https://mobasketball.leagueapps.com/");
-        parent.postMessage(height, "http://mobasketball.leagueapps.com/");
-    } else if(document.referrer == "https://mobasketball.leagueapps.com/"){
-        parent.postMessage(height, "https://mobasketball.org/");
-        parent.postMessage(height, "http://mobasketball.org/");    
-        parent.postMessage(height, "https://mobasketball.leagueapps.com/");
-        parent.postMessage(height, "http://mobasketball.leagueapps.com/");
-    } else {
-        parent.postMessage(height, "https://mobasketball.org/");
-        parent.postMessage(height, "http://mobasketball.org/");    
-        parent.postMessage(height, "https://mobasketball.leagueapps.com/");
-        parent.postMessage(height, "http://mobasketball.leagueapps.com/");
     }
 }
 // create an Observer instance
