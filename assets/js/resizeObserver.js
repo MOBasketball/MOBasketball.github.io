@@ -28,6 +28,11 @@ function notifyResize(){
         parent.postMessage(height, "http://mobasketball.org/");    
         parent.postMessage(height, "https://mobasketball.leagueapps.com/");
         parent.postMessage(height, "http://mobasketball.leagueapps.com/");
+    } else {
+        parent.postMessage(height, "https://mobasketball.org/");
+        parent.postMessage(height, "http://mobasketball.org/");    
+        parent.postMessage(height, "https://mobasketball.leagueapps.com/");
+        parent.postMessage(height, "http://mobasketball.leagueapps.com/");
     }
 }
 // create an Observer instance
