@@ -21,8 +21,13 @@ function notifyResize(){
     } else if(document.referrer == "http://www.mobasketball.org/"){
         parent.postMessage(height, "https://mobasketball.org/");
         parent.postMessage(height, "http://mobasketball.org/");
-    } else if(document.referrer == "https://mobasketball.leagueapps.com/"){
         parent.postMessage(height, "https://mobasketball.leagueapps.com/");
+        parent.postMessage(height, "http://mobasketball.leagueapps.com/");
+    } else if(document.referrer == "https://mobasketball.leagueapps.com/"){
+        parent.postMessage(height, "https://mobasketball.org/");
+        parent.postMessage(height, "http://mobasketball.org/");    
+        parent.postMessage(height, "https://mobasketball.leagueapps.com/");
+        parent.postMessage(height, "http://mobasketball.leagueapps.com/");
     }
 }
 // create an Observer instance
