@@ -1,0 +1,26 @@
+<script type="text/javascript">// <![CDATA[
+    $(document).ready(function(){
+        //$("#main-content .pagetitle").css("margin-bottom", 0);
+        //$("#main-content .newsitem").css("margin-top", 0);
+        //$("#main-content > div.text-center:nth-child(2)").css("display", "none");
+
+        const frame = document.getElementById("embedded-frame");
+        var prevHeight = 0;
+        window.addEventListener("message", (event) => {
+            if (event.origin !== "https://mobasketball.github.io")
+                return;
+            var newHeight = ( event.data["html.clientHeight"] - event.data["roContainer.scrollHeight"] > 100 ? event.data["roContainer.scrollHeight"] : event.data.max );
+            console.debug({
+                newHeight: newHeight,
+                prevHeight: prevHeight,
+                logic: newHeight > prevHeight
+            })
+            if(newHeight > prevHeight){
+                prevHeight = newHeight;
+                frame.style.height = newHeight + "px";
+            }
+            console.debug(frame.style.height);
+        }, false);
+    });
+// ]]></script></p>
+<p><iframe id="embedded-frame" src="https://mobasketball.github.io/LeagueApps/board.html" frameborder="0" width="100%"></iframe>
