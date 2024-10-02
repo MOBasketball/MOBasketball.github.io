@@ -4472,3 +4472,11 @@ body.is-preload .wrapper.spotlight .inner .content {
 #banner .inner {
 	margin: 0 30px;
 }
+
+#banner h2 {
+    font-size: larger;
+}
+
+.wrapper .inner {
+    width: 100%;
+}
