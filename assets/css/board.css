@@ -4461,3 +4461,13 @@ body.is-preload .wrapper.spotlight .inner .content {
 		opacity: 0.5;
 	}
 }
+
+
+/* LeagueApp Embed Specific Styles */
+#content.full .main {
+	width: 100%;
+}
+
+#banner .inner {
+	margin: 0 30px;
+}
