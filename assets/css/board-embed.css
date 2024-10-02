@@ -4465,6 +4465,10 @@ body.is-preload .wrapper.spotlight .inner .content {
 
 
 /* LeagueApp Embed Specific Styles */
+#page-title {
+    display: none;
+}
+
 #content.full .main {
 	width: 100%;
 }
