@@ -1,6 +1,6 @@
 {
     "const": {
-        "defaultContactPhoto": "images/nophoto.gif"
+        "defaultContactPhoto": "//MOBasketball.github.io/LeagueApps/images/nophoto.gif"
     },
     "links": {
         "league":       "//www.mobasketball.org",
