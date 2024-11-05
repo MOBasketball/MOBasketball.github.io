@@ -115,9 +115,11 @@ input, select, textarea {
 		box-sizing: border-box;
 	}
 
+	/*
 	*, *:before, *:after {
 		box-sizing: inherit;
 	}
+	*/
 
 	body {
 		background-color: #fff;
@@ -140,7 +142,7 @@ input, select, textarea {
 
 /* Type */
 
-	body, input, select, textarea {
+	/*body*/ #page-wrapper, input, select, textarea {
 		color: #ffffff;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 16.5pt;
@@ -4483,4 +4485,9 @@ body.is-preload .wrapper.spotlight .inner .content {
 
 .wrapper .inner {
     width: 100%;
+}
+
+.inner > .content > p {
+	font-size: 20px;
+	line-height: 0;
 }
