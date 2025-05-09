@@ -9,15 +9,8 @@
 }
 
 @font-face {
-    font-family: 'Blazed';
-    src: url('../fonts/Blazed.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'PaintDrops';
-    src: url('../fonts/PaintDropsRegular.ttf') format('truetype');
+    font-family: 'Black Flag Regular';
+    src: url('../fonts/Black%20Flag%20Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -25,6 +18,20 @@
 @font-face {
     font-family: 'PirateGrunge';
     src: url('../fonts/Pirate%20Grunge.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Freebooter';
+    src: url('../fonts/Freebooter.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pirates Blue';
+    src: url('../fonts/Pirates%20Blue.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
