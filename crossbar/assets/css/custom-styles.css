@@ -43,3 +43,10 @@
     font-family: 'Pirata One', cursive;
     font-family: 'Trade Winds', cursive;
 }
+
+
+/******** Home Page Customizations ********/
+.hero H1, .hero H2 {
+    font-family: PirateGrunge;
+    text-transform: capitalize;
+}
